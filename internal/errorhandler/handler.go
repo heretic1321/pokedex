@@ -5,7 +5,7 @@ import (
 	"log"
 )
 
-func Handle(err error) error  {
+func Handle(err error) error {
 	fmt.Printf("❌ Error: %v\n", err)
 	return err
 }
